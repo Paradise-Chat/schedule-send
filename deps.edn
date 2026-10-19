@@ -5,8 +5,10 @@
 ;;        jtk-dvlp/cljs-workers {:local/root "../cljs-workers"}
         jtk-dvlp/cljs-workers {:git/url "https://github.com/Paradise-in-Matrix/cljs-workers.git"
                                :git/sha "93c29055b3e3ba45a8f4cbcf55698bcf6bf1c3f5"}
+
 ;;        paradise/client {:local/root "../Paradise"}
-        paradise/client {:git/url "https://github.com/Paradise-in-Matrix/Paradise.git"
-                         :git/sha "5df6b7d168ed51b80974c5d280324a19b9640d64"}}
+        paradise/client {:git/url "https://github.com/Paradise-Chat/Paradise.git"
+                         :git/sha "b9ef2f8c39a1af24f387e233c0cc97f215b9bafb"}}
+
  :aliases {:extract {:main-opts ["-m" "lambda-lifter"]}
            :build {:main-opts ["-m" "plugin-build"]}}}
